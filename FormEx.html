@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FormEx1.html</title>
+</head>
+<body>
+<form>
+	
+<fieldset style="background:  #20A9A4; width: 30%;">
+
+	<legend><em>Contact Information</em></legend>
+	<label for="fn">First name:</label><br>
+    <input type="text" id="fname" name="fname"><br><br>
+	<label for="ln">Last name:</label><br>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="ln">E-mail:</label><br>
+    <input type="text" id="fname" name="fname"><br><br>
+
+<label for="ph">Telephone (Format: 09-123456789)</label><br>
+<input type="tel" name="ph" id="ph" maxlength="12" pattern="09-[0-9]{9}"><br><br>
+
+<label for="fn">Address:</label><br>
+<textarea id="msg" name="msg" rows="4" cols="45"></textarea><br><br>
+
+</fieldset><br><br>
+
+<fieldset style="background: rgba(255,99,71,0.8); width: 30%;">
+
+	<legend><em>Competition Question</em></legend>
+	
+	<label for="fname">How tall is the Eiffel Tower in Paris, France?</label><br>
+
+
+	<input type="radio" id="rb1" name="rb">
+	<label for="rb1">584ft</label><br>
+	<input type="radio" id="rb2" name="rb">
+	<label for="rb2">784ft</label><br>
+	<input type="radio" id="rb3" name="rb">
+	<label for="rb3">984ft</label><br>
+	<input type="radio" id="rb4" name="rb">
+	<label for="rb2">1184ft</label><br><br>
+
+</fieldset><br><br>
+
+<fieldset style="background: hsl(45,100%,45%); width: 30%;">
+
+		<legend><em>Tiebreaker Question</em></legend>
+	
+	<label for="fname">In 25 words or less,say why you would like to win$10,000:</label><br>
+
+<textarea id="msg" name="msg" rows="10" cols="47"></textarea><br><br>
+</fieldset>
+
+<fieldset style="width: 30%">
+	<legend><em>Enter Competition</em></legend>
+    <input type="submit" value="Enter Competition" style="background: #ff101a"></label><br><br>
+
+</fieldset><br><br>
+
+</form>
+
+</body>
+</html>
